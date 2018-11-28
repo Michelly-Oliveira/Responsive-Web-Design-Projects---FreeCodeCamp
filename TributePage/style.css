@@ -1,0 +1,79 @@
+html,body {
+    background-color: #E8E8E8;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  /* Header */
+  .header {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #title {
+    font-size: 48px;  
+    line-height: 60px; 
+    letter-spacing: 5px;
+  }
+  
+  header p {
+    padding-bottom: 15px;
+  }
+  
+  /* Image */
+  #img-div {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #image {
+    max-width: 80%;
+    display: block;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  
+  .img-caption {
+    padding-bottom: 20px;
+  }
+  
+  /* Tribute info */
+  #tribute-info {
+    text-align: center;
+    width: 100%;
+  }
+
+  #tribute-info h2 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .list li{
+    width: 55%;
+    line-height: 20px;
+    margin: 0 auto 5px;
+    text-align: left;
+  }
+  
+  #quote {
+    font-style: italic;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #62629d;
+  }
+  
+  a:hover {
+    color: #4e4eb1;
+  }
+  
