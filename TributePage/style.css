@@ -59,15 +59,15 @@ html,body {
     text-align: left;
   }
   
-  #quote {
-    font-style: italic;
-  }
-  
   /* Footer */
   .footer {
     text-align: center;
   }
   
+  #quote {
+    font-style: italic;
+  }
+
   a {
     text-decoration: none;
     color: #62629d;
