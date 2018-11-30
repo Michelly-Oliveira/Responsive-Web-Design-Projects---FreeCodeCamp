@@ -1,0 +1,98 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #DB7093;
+  text-align: center;
+  font-family: arial;
+}
+  
+.form-body {
+  border-radius: 10px;
+  width: 75%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px;
+}
+  
+#description {
+  font-style: italic;
+  font-size: 18px;
+}
+  
+.labels {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.inputs {
+  display: inline-block;
+  width: 40%;
+  text-align: left;
+  vertical-align: middle;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 10px 0;
+  list-style: none;
+}
+
+#survey-form {
+  position: relative;
+}
+
+#survey-form input{
+  border: 1px solid black;
+}
+
+#dropdown {
+  padding: 10px;
+  min-width: 20%;
+  max-width: 140px;
+  margin-right: 23%;
+}
+
+.radio-btn, #checkboxes, #text {
+  padding: 0;
+  margin-right: 4%;
+}
+
+.radio-btn li, #checkboxes li {
+  padding: 5px 0; 
+}
+
+#submit {
+  padding: 10px;
+  margin: 10px;
+  background-color: #59ace0;
+  color: white;
+  border-radius: 4px;
+  font-size: 1em;
+  border: 0px solid;
+  width: 100px;
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .inputs {
+    width: 90%;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #dropdown {
+    margin-right: 80%;
+  }
+  
+  .radio-btn li, #checkboxes li {
+    padding: 0 0 5px 0; 
+  }
+}
