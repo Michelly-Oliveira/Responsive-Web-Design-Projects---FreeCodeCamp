@@ -40,19 +40,24 @@ html, body {
   list-style: none;
 }
 
-#survey-form {
-  position: relative;
-}
-
 #survey-form input{
   border: 1px solid black;
 }
 
+#select {
+  display: flex; 
+  justify-content: flex-start;
+  flex-basis: 100%;
+}
+
+#select label {
+  margin-left: 8%;
+}
+
 #dropdown {
-  padding: 10px;
-  min-width: 20%;
-  max-width: 140px;
-  margin-right: 23%;
+  width: 140px;
+  border: 1px solid black;
+  margin-right: 30%;
 }
 
 .radio-btn, #checkboxes, #text {
@@ -76,6 +81,16 @@ html, body {
   height: 50px;
 }
 
+@media screen and (max-width: 900px) {
+  #select label {
+    margin-left: 8%;
+  }
+  
+  #dropdown {
+    margin-right: 20%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .labels {
     width: 100%;
@@ -88,11 +103,25 @@ html, body {
     margin: 0;
   }
   
-  #dropdown {
-    margin-right: 80%;
+  #select {
+    display: block;
   }
   
+  #select label {
+    margin-left: 0%;
+  }
+  
+  #dropdown {
+    border: 1px solid black;
+    float: left;
+    margin-left: 3%;
+  }
+
   .radio-btn li, #checkboxes li {
     padding: 0 0 5px 0; 
+  }
+
+  .radio-btn {
+    margin-right: 8%;
   }
 }
